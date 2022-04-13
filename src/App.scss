@@ -1,0 +1,120 @@
+.app {
+  .toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #696969;
+
+    button {
+      padding: 8px 12px;
+      border: none;
+      border-radius: 12px;
+      margin: 10px 0;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.light_theme {
+  button {
+    background-color: #cc0000;
+    color: white;
+  }
+
+  .left_part {
+    background-color: #cecece;
+    color: #2f4f4f;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .text_area_container {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+
+      button {
+        width: 100%;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+
+    .button_adder {
+      margin-top: 10px;
+
+      button {
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .right_part {
+    background-color: white;
+    color: #000000;
+    width: 50%;
+    height: 100vh;
+  }
+}
+
+.dark_theme {
+  button {
+    background-color: #f0f8ff;
+    color: #800080;
+  }
+
+  .left_part {
+    background-color: white;
+    color: #696969;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .text_area_container {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+
+      button {
+        width: 100%;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+
+    .button_adder {
+      margin-top: 10px;
+
+      button {
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .right_part {
+    background-color: #008080;
+    color: white;
+    width: 50%;
+    height: 100vh;
+  }
+
+}
+
+.container {
+  display: flex;
+}
